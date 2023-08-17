@@ -21,8 +21,6 @@
   <!-- Core Css -->
   <link id="themeColors" rel="stylesheet" href="<?= base_url() ?>assets/dist/css/style.min.css" />
 
-  <link rel="stylesheet" href="<?= base_url() ?>assets/css/mystyle.css" />
-
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/brands.min.css"
     integrity="sha512-9YHSK59/rjvhtDcY/b+4rdnl0V4LPDWdkKceBl8ZLF5TB6745ml1AfluEU6dFWqwDw9lPvnauxFgpKvJqp7jiQ=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -52,21 +50,11 @@
         <nav class="sidebar-nav scroll-sidebar" data-simplebar>
           <ul id="sidebarnav">
             <li class="nav-small-cap">
-              <span class="hide-menu">Disponibilidad Urgencias</span>
-              <div class="switch-container">
-                <label class="switch">
-                  <input type="checkbox" id="toggleSwitch">
-                  <span class="slider"></span>
-                </label> </br></br>
-                <span id="status"> No disponible</span>
-              </div>
-            </li>
-            <li class="nav-small-cap" style="margin-top:0px;">
               <i class="ti ti-dots nav-small-cap-icon fs-4"></i>
               <span class="hide-menu">Principal</span>
             </li>
             <li class="sidebar-item">
-              <a class="sidebar-link" href="<?= base_url() ?>index.php/Home" aria-expanded="false">
+              <a class="sidebar-link" href="./index.html" aria-expanded="false">
                 <span>
                   <i class="ti ti-aperture"></i>
                 </span>
@@ -76,9 +64,10 @@
             <li class="sidebar-item">
               <a class="sidebar-link" href="./index2.html" aria-expanded="false">
                 <span>
-                  <i class="fa-solid fa-users"></i>
+
+                  <i class="fa-regular fa-building"></i>
                 </span>
-                <span class="hide-menu">Personal</span>
+                <span class="hide-menu">Empresas</span>
               </a>
             </li>
             <li class="sidebar-item">
@@ -92,9 +81,17 @@
             <li class="sidebar-item">
               <a class="sidebar-link" href="./index4.html" aria-expanded="false">
                 <span>
-                  <i class="fa-regular fa-calendar"></i>
+                  <i class="fa-solid fa-users"></i>
                 </span>
-                <span class="hide-menu">Citas</span>
+                <span class="hide-menu">Usuarios</span>
+              </a>
+            </li>
+            <li class="sidebar-item">
+              <a class="sidebar-link" href="./index4.html" aria-expanded="false">
+                <span>
+                  <i class="fa-solid fa-comments"></i>
+                </span>
+                <span class="hide-menu">Ticket</span>
               </a>
             </li>
             <!-- ============================= -->
@@ -107,23 +104,23 @@
             <li class="sidebar-item">
               <a class="sidebar-link" href="./app-calendar.html" aria-expanded="false">
                 <span>
-                  <i class="fa-solid fa-truck-ramp-box"></i>
+                  <i class="fa-solid fa-cash-register"></i>
                 </span>
-                <span class="hide-menu">Inventario</span>
+                <span class="hide-menu">Pagos</span>
               </a>
             </li>
             <li class="sidebar-item">
               <a class="sidebar-link" href="./app-chat.html" aria-expanded="false">
                 <span>
-                  <i class="fa-solid fa-cash-register"></i>
+                  <i class="fa-solid fa-money-bill"></i>
                 </span>
-                <span class="hide-menu">Ventas</span>
+                <span class="hide-menu">Planes</span>
               </a>
             </li>
             <li class="sidebar-item">
               <a class="sidebar-link" href="./app-notes.html" aria-expanded="false">
                 <span>
-                  <i class="fa-solid fa-cash-register"></i>
+                  <i class="fa-solid fa-file-invoice"></i>
                 </span>
                 <span class="hide-menu">Informe</span>
               </a>
@@ -331,8 +328,7 @@
                         </div>
                       </div>
                       <div class="message-body">
-                        <a href="<?= base_url() ?>index.php/Perfil/Empresa"
-                          class="py-8 px-7 mt-8 d-flex align-items-center">
+                        <a href="./page-user-profile.html" class="py-8 px-7 mt-8 d-flex align-items-center">
                           <span class="d-flex align-items-center justify-content-center bg-light rounded-1 p-6">
                             <img src="<?= base_url() ?>assets/img/home/icon-account.svg" alt="" width="24" height="24">
                           </span>

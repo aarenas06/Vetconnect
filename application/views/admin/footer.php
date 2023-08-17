@@ -15,8 +15,6 @@
 <script src="<?= base_url() ?>assets/dist/js/owl.carousel.min.js"></script>
 <script src="<?= base_url() ?>assets/dist/js/apexcharts.min.js"></script>
 <script src="<?= base_url() ?>assets/dist/js/dashboard.js"></script>
-
-<script src="<?= base_url() ?>assets/js/script.js"></script>
 </body>
 
 </html>
