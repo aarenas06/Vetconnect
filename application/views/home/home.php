@@ -66,4 +66,16 @@
             </div>
         </div>
     </div>
+    <h1>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure sunt ab, voluptatem quasi voluptatibus,
+        eaque cumque similique ipsa cupiditate exercitationem nobis distinctio assumenda fuga cum, eum voluptate
+        ducimus atque? Esse.
+    </h1>
+    <center>
+        <div class="card">
+            <div class="card-body">
+                Una carta en todo el centro
+            </div>
+        </div>
+    </center>
 </div>
